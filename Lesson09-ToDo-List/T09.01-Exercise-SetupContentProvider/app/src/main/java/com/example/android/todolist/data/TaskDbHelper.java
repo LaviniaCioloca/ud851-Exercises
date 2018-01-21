@@ -33,7 +33,7 @@ public class TaskDbHelper extends SQLiteOpenHelper {
 
 
     // Constructor
-    TaskDbHelper(Context context) {
+    public TaskDbHelper(Context context) {
         super(context, DATABASE_NAME, null, VERSION);
     }
 
